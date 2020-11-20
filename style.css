@@ -306,9 +306,10 @@ body{
       border-radius: 50%;
     }
 
-    blockquote .svg-inline--fa{
+    p .svg-inline--fa{
       color: #593a38;
       margin: 1rem;
+      display: block;
     }
 
     .clients-hr{
@@ -316,7 +317,10 @@ body{
     }
     .block-quote{
 
-    text-align: justify;}
+    text-align: justify;
+    letter-spacing: none;
+    text-align: inherit;
+  }
 
 
 
@@ -362,14 +366,6 @@ body{
       margin-top: -2%;
     }
 
-    blockquote{
-      text-align: justify;
-      word-spacing: initial;
-      word-wrap: none;
-      overflow: hidden;
-      
-    }
-
     .word{
       text-align: justify;
       overflow: hidden;
@@ -384,11 +380,13 @@ body{
 
       /*Media Queries*/
 
-      @media (max-width: 767px){
+      @media(max-width: 1260px){
         .caption h1{
           font-size: 2.3rem;
           letter-spacing: .15rem;
-          padding-bottom: .5rem;}
+          padding-bottom: .5rem;
+          display: inline-block;
+        }
 
           .caption h3{
             font-size: 1.2rem;
@@ -411,7 +409,7 @@ body{
 
           } 
           
-
+          
        
 
         }
