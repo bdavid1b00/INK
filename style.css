@@ -308,19 +308,14 @@ body{
 
     p .svg-inline--fa{
       color: #593a38;
-      margin: 1rem;
-      display: block;
+      margin: .3rem;
+
     }
 
     .clients-hr{
       border-top: .05rem solid #593a38;
     }
-    .block-quote{
-
-    text-align: justify;
-    letter-spacing: none;
-    text-align: inherit;
-  }
+  
 
 
 
@@ -333,6 +328,8 @@ body{
       color: white;
       padding: 2rem 0 2rem;
       margin-top: 1rem;
+      width: 100%;
+
 
     }
 
@@ -376,6 +373,63 @@ body{
   flex-wrap: wrap;
 }
     
+.narrow img{
+	width: 50%;
+	height: auto;
+	max-width: 50%;
+}
+
+.narrow h1{
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	font-weight: 700;
+}
+
+.img-text{
+	text-align: justify;
+	border: 0;
+	margin:0;
+	padding: 0;
+	width: 50%;
+	margin: 0 auto;
+	height: 90px;
+	overflow: hidden;
+
+}
+
+
+#myBtn{
+	display: inline-block;
+	color: black;
+	background-color: #c9c9c7;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+
+#mybtn{
+	display: inline-block;
+	color: black;
+	background-color: #c9c9c7;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+
+.article.showContent p {
+
+	height: auto;
+}
+
+
+.article.showContent a#mybtn.readmore-btn{
+	background-color: #593a38;}
+
+	
 
 
       /*Media Queries*/
@@ -414,10 +468,8 @@ body{
           p {
             text-align: left;
           }
-
-          .home-inner{
-            background-image: url(img/lp4.jpg);
-          }
+          
+      
 
         }
 
