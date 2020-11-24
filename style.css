@@ -43,22 +43,6 @@ body{
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #cc8a87;}
 
-  .dropdown-item{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size:.9rem;
-  letter-spacing: .1rem;
-  }
-
-.dropdown-item:hover{
-  color:#cc8a87;
-}
-
-.dropdown-menu{
-  background-color: #666b71;
-}
-
-
 
 
     /*Landing Page*/
@@ -158,17 +142,19 @@ body{
     /*Services*/
       
 
-    .service-section{
+    .service-pane{
       background: #fff;
       padding: 0;
+      margin-top: -3%;
     }
     
+
     .container{
       padding-right: 15px;
       padding-left: 15px;
       margin-right: auto;
       margin-left: auto;
-
+    
     }
 
     .row{
@@ -230,7 +216,7 @@ body{
 
 
     .voffset20{
-      margin-top: 2opx!important;
+      margin-top: 20px!important;
     }
     /*Blog Section*/
     .fixed{
@@ -429,6 +415,9 @@ body{
 .article.showContent a#mybtn.readmore-btn{
 	background-color: #593a38;}
 
+
+  /* Faqs */
+
 	
 
 
@@ -469,7 +458,14 @@ body{
             text-align: left;
           }
           
-      
+          .service-pane{
+            margin-top: -10%;
+          }
+
+          .container{
+            margin-top: -10%;
+            margin-bottom: -22%;
+          }
 
         }
 
