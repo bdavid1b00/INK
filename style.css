@@ -425,12 +425,25 @@ body{
   
 }
 
+
+#h1-faqs{
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  z-index: -1;
+  margin: 10%;
+
+
+}
 #section-faqs{
   width: 100%;
   height:100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10%;
+  margin-top: -5%
+  
 
 }
 
