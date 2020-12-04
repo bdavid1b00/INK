@@ -530,7 +530,9 @@ body{
           padding-bottom: .5rem;
           display: inline-block;
         }
-
+        #heading{
+          margin: 20%;
+        }
         #about-p{
           margin: 7%;
         }
