@@ -523,9 +523,9 @@ body{
 
       /*Media Queries*/
 
-      @media(max-width: 1199.98px){
+      @media(max-width: 3000px){
         .caption h1{
-          font-size: 2.3rem;
+          font-size: 1.8rem;
           letter-spacing: .15rem;
           padding-bottom: .5rem;
           display: inline-block;
@@ -548,24 +548,25 @@ body{
 
       #footer{
       margin-top: 12.5%;
+      text-align: left;
       }
       .footer-p{
-        text-align: center;
+        text-align: left;
       }
 
       
           .caption h3{
-            font-size: 1.2rem;
-            padding-bottom: 1.2rem;
+            font-size: 1.0rem;
+            padding-bottom: 1.0rem;
             font-weight: 700;
           }
 
           .btn-lg{
             padding: .5rem 1.3rem;
-            font-size: 1rem;
+            font-size: 0.8rem;
           }
           .narrow h1{
-            font-size: 1.5rem;
+            font-size: 1.1rem;
           }
 
           .clients img{
@@ -587,11 +588,89 @@ body{
 
           .container{
             margin-top: -10%;
-            margin-bottom: -22%;
-          }
+            margin-bottom: -22%;}
 
-        }
+            footer svg.svg-inline--fa{
+              float:left;
+            }
+        
+        
+          
+ }
 
+
+ @media(max-width: 991.98px){
+  .caption h1{
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+    display: inline-block;
+  }
+
+  #about-p{
+    margin: 7%;
+  }
+
+  .dark{
+    margin: 12.5%;
+  }
+  .btn-secondary{
+    margin: 8%;
+  }
+
+#section-contact{
+  margin-top: 6.5%;
+}
+
+#footer{
+margin-top: 12.5%;
+text-align: left;
+}
+.footer-p{
+  text-align: left;
+}
+
+
+    .caption h3{
+      font-size: 1.0rem;
+      padding-bottom: 1.0rem;
+      font-weight: 700;
+    }
+
+    .btn-lg{
+      padding: .5rem 1.3rem;
+      font-size: .8rem;
+    }
+    .narrow h1{
+      font-size: 1.1rem;
+    }
+
+    .clients img{
+      max-width: 50%;
+      display: block;
+      margin: 0 auto;
+    
+
+    } 
+    
+    
+    p {
+      text-align: left;
+    }
+    
+    .service-pane{
+      margin-top: -10%;
+    }
+
+    .container{
+      margin-top: -10%;
+      margin-bottom: -22%;
+    }
+    footer svg.svg-inline--fa{
+      float:left;
+    }
+ }
+        
 
 
 
