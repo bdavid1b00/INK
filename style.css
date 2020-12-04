@@ -310,7 +310,7 @@ body{
     /*Footer*/
 
     footer{
-      background-color: #40474e;
+      background-color: #404747;
       color: white;
       padding: 2rem 0 2rem;
       margin-top: 1rem;
@@ -427,11 +427,11 @@ body{
 
 
 #h1-faqs{
-  color: #fff;
+  color: #f7e7e7;
   text-transform: uppercase;
   padding-bottom: 1rem;
   z-index: -1;
-  margin: 10%;
+  margin: 8rem;
 
 
 }
@@ -442,7 +442,6 @@ body{
   align-items: center;
   justify-content: center;
   margin-bottom: 10%;
-  margin-top: -5%
   
 
 }
